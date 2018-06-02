@@ -1,0 +1,16 @@
+{
+  "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
+  "linterOptions": {
+    "exclude": [
+      "config/**/*.js",
+      "node_modules/**/*.ts",
+      "dist",
+      "build"
+    ]
+  },
+  "rules": {
+    "variable-name": false,
+    "quotemark":false
+  },
+  "rulesDirectory": []
+}
