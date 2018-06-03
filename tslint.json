@@ -10,7 +10,11 @@
   },
   "rules": {
     "variable-name": false,
-    "quotemark":false
+    "quotemark": false,
+    "no-console": false,
+    "ordered-imports": false,
+    "jsx-no-lambda": false
   },
-  "rulesDirectory": []
+  "rulesDirectory": [],
+  "defaultSeverity": "warning"
 }
